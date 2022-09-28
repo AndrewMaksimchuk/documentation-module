@@ -1,7 +1,7 @@
-Example of documentation the module and get quick that information.
+## Example of documentation the module and get quick that information.
 
 
-Module:
+### Module:
 ```
 import { openSync, writeFileSync } from "fs";
 
@@ -30,7 +30,7 @@ log.__doc__ = __doc__;
 For quick see the documentation, just write command `doc path_to_module` and the text will be displayed.  
 
 
-Example:  
+### Example:  
 Write in terminal `doc ./example_module.js`  
 Then see:
 ```
@@ -46,9 +46,21 @@ Return:
 ```
 
 
-Examples of launches:  
+### Examples of launches:  
+`doc ./module.js`
 `./doc.js ./example_module.js`  
 `npm run doc ./example_module.js`  
 `node ./doc.js ./example_module.js`  
 
 
+### Install:  
+`npm run install`  
+
+Installing - it`s just create symlink "doc" to package file doc.js.  
+
+
+### NPM scripts:  
+`doc` - See the documentation of module.  
+`install` - Install package.  
+`remove` - Remove package.  
+`check` - Check if package installed.  

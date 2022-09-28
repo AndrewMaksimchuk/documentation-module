@@ -1,13 +1,21 @@
 {
   "name": "documentation-module",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Example of documentation the module and get quick that information.",
   "main": "doc.js",
+  "bin": {
+    "doc": "doc.js"
+  },
   "type": "module",
   "scripts": {
-    "doc": "./doc.js $1"
+    "doc": "node ./doc.js $1",
+    "install": "node ./install.js",
+    "remove": "node ./remove.js",
+    "check": "node ./isInstall.js"
   },
-  "keywords": ["documentation"],
+  "keywords": [
+    "documentation", "module", "javascript"
+  ],
   "author": "Andrew Maksimchuk",
   "license": "MIT"
 }
