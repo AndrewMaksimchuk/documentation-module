@@ -1,0 +1,13 @@
+{
+  "name": "documentation-module",
+  "version": "1.0.0",
+  "description": "Example of documentation the module and get quick that information.",
+  "main": "doc.js",
+  "type": "module",
+  "scripts": {
+    "doc": "./doc.js $1"
+  },
+  "keywords": ["documentation"],
+  "author": "Andrew Maksimchuk",
+  "license": "MIT"
+}
